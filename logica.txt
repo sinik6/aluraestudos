@@ -33,3 +33,4 @@ JOptionPane.showInputDialog
 EXIBE UM CAIXA TBM POREM DE INPUT OU SEJA RECEBE VAI APARECER UM CAIXA PARA DIGITAR E ENVIAR O INPUT "MENSAGEM PARA O CODIGO RESOLVER E VER QUAL CASE SE ENCAIXA"
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+this.() atribuir valor ao atributo o ex o tributo nome tem que ter o valor de de nome entao this.nome = nome 
