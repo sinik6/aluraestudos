@@ -57,7 +57,7 @@ public class Main {
         String input = JOptionPane.showInputDialog(menu);
          //se 0 apeta 4 auto
         if (input == null) {
-            // Usuário cancelou, vamos sair
+           //input vazio retorna 4 = sair
             return 4;
         }
         //loop pra se seleciona caractere errado
@@ -97,7 +97,7 @@ public class Main {
     public static void enviarPix(Cliente cliente) {
         String input = JOptionPane.showInputDialog("Digite um valor para enviar:");
         if (input == null) {
-            return; // cancelou, retorna nada
+            return; // 0 retorna nada
         }
         try { // calculo para tranferencias > ou <
             int valor = Integer.parseInt(input);
